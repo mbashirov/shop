@@ -1,11 +1,16 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
+gem 'mysql2', '~> 0.2.7'
+gem 'spree', :git => 'git://github.com/spree/spree.git', :branch => '0-60-stable'
+gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
+gem 'synergy', '~> 0.60.0'
+gem 'synergy_default_theme', '~> 1.0.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+#gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -29,3 +34,4 @@ gem 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
